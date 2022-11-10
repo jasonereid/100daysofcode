@@ -1,0 +1,24 @@
+# multiple variable assignments
+
+x = y = z = 0
+
+print(x)
+print(y)
+print(z)
+
+# assign variables from a list
+# notice that arranging the variables as the list is arranged assigns that portion of the list to them
+fruits = ["apple","orange","banana"]
+
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+
+stuff = ["hammer",2,"Cartoons"]
+
+a, b, c = stuff
+
+print(a)
+print(b)
+print(c)
